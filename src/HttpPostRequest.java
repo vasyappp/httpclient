@@ -11,8 +11,8 @@ public class HttpPostRequest {
     static String sXML = "<soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:spel=\"http://speller.yandex.net/services/spellservice\">\n" +
             "   <soapenv:Header/>\n" +
             "   <soapenv:Body>\n" +
-            "      <spel:CheckTextRequest lang=\"ru\" options=\"8\" format=\"\">\n" +
-            "         <spel:text>Ночь темна и полна ужосов</spel:text>\n" +
+            "      <spel:CheckTextRequest lang=\"en\" options=\"8\" format=\"\">\n" +
+            "         <spel:text>to bee or nots to be</spel:text>\n" +
             "      </spel:CheckTextRequest>\n" +
             "   </soapenv:Body>\n" +
             "</soapenv:Envelope>";
